@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column; /* Establecer la orientación en columna */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgba(13, 18, 39, 0.911) !important;
+}
+
+.map {
+    width: 95%;
+    height: 85vh;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 2px; /* Agrega el valor de radio que desees */
+    margin-top: 5px; /* Ajusta el valor según la distancia que desees */
+}
+
+#contador-form {
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    display: none; /* Ocultar el formulario inicialmente */
+}
+
+.titulo-anterior h1{
+    font-size: 23px;
+    border-radius: 10px;
+    margin-top: 2px;
+    
+}
+.titulo-anterior p{
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.titulo-anterior {
+    background-color: #e2e2e2;
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
+    border-radius: 10px; 
+    border: 2px solid #333; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 12px; 
+    display: flex; 
+    align-items: center; 
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titulo-anterior img {
+    width: 50px; 
+    height: auto; 
+    margin-right: 30px; 
+    margin-bottom: 5px; 
+}
+
+.titulo-anterior h1, .titulo-anterior p {
+    margin: 0; 
+}
+
